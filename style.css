@@ -63,7 +63,19 @@ nav div ul li button{
         margin: 0 auto;
         flex-wrap: wrap;
     }
+    main .container{
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+     }
+     main .flex-foto{
+        flex-direction: column;
+    }
 
+    main .card-big{
+        width: 100%;
+    }
+    
 }
 
 
@@ -88,42 +100,75 @@ nav div ul li button{
         margin: 0 auto;
         flex-wrap: wrap;
     }
+    main .flex-foto{
+        display: flex;  
+        flex-direction: column;
+    }
  }
 
-/* .table-container {
+ main .container{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
     width: 80%;
     margin: 0 auto;
-  }
-  
-  .row {
-    display: flex;
-    gap: 1rem;
-  }
-  
-  .cell {
-    padding: 8px;
-    text-align: left;
+    line-height: 30px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+ }
+main .card-big{
     background-color: #b5ddff;
+    width: calc(66.666% - 20px);
     border-radius: 20px;
-    width: 100%;
-    display: flex;
-    gap: 1rem;
-  }
-  
-  .colspan-2 {
-    flex: 2;
-  }
+}
 
-  .table-container picture img{
-    width: 200px;
-    display: flex;
-  }
+main #testo-uno{
+    padding-top: 30px;
+}
 
-  #cellauno{
-    margin-right: 300px;
-  } */
+main #testo-uno h3{
+    padding-bottom: 20px;
+}
+
+main #testo-uno button{
+    padding: 10px 50px;
+    background-color: #0084fd;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+main .cards-small{
+    background-color: #b5ddff;
+    width: calc(33.333% - 20px);
+    border-radius: 20px;
+    text-align: center;
+}
+
+main .flex-card{
+    padding: 10px;
+}
+
+main .flex-foto{
+    display: flex;  
+    padding-left: 20px;
+}
+
+main .flex-foto div img{
+    margin-bottom: -10px; 
+}
+
+main .container .cards-small .icon{
+    font-size: 70px;
+    color: #0084fd;
+  }
+main .container .cards-small h3{
+    color: #0084fd;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
 main div div img{
     width: 300px;
 }
@@ -218,6 +263,7 @@ main .testimonialsdue div{
     align-items: center; 
     margin-bottom: 30px;
 }
+
 
 
 
