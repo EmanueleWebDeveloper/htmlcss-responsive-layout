@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'PT Sans', sans-serif;
+}
+header{
+    background-color:#0084fd ;
+    width: 100%;
+}
+
+nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    padding: 10px;
+}
+
+nav div #mobile{
+    display: none;
+}
+
+li{
+    list-style-type: none;
+    color: white;
+}
+nav div ul{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+nav div ul li button{
+   color: black;
+   padding: 10px;
+   border: none;
+   border-radius: 20px;
+}
+
+@media screen and ( max-width: 480px ){
+    nav{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        align-items: center;
+        padding: 10px;
+    }  
+    nav div ul{
+        display: none;
+    }
+    nav div #mobile{
+        display: block;
+    }
+    main .planning{
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+@media screen and ( max-width: 768px ){
+    nav{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        align-items: center;
+        padding: 10px;
+    }  
+    nav div ul{
+        display: none;
+    }
+    nav div #mobile{
+        display: block;
+    }
+    main .planning{
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+ }
+
+/* .table-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .cell {
+    padding: 8px;
+    text-align: left;
+    background-color: #b5ddff;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .colspan-2 {
+    flex: 2;
+  }
+
+  .table-container picture img{
+    width: 200px;
+    display: flex;
+  }
+
+  #cellauno{
+    margin-right: 300px;
+  } */
+main div div img{
+    width: 300px;
+}
+
+.backgroundviola{
+width: 100%;
+background-color: #9593e6;
+}
+main .planning{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    gap: 30px; 
+}
+
+main div .primafoto{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    color: white;
+    padding-bottom: 40px;
+}
+
+main div .primafoto img{
+   padding-bottom: 100px;
+}
+
+main div .secondafoto{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    background-color: white;
+    border-radius: 20px;
+    margin-block: 80px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+main div .secondafoto button{
+    display: flex;
+    justify-content: center;
+    width: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #9792e4;
+    padding: 10px;
+}
+main div .secondafoto div{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+main div .secondafoto img{
+    width: 200px;
+}
+
+.Testimonials{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.Testimonials div{
+    text-align: center;
+    font-size: 1.3rem;
+    padding-top: 30px;
+}
+
+.Testimonials div h1{
+    color: #9792e4;
+    font-size: 2.2rem;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.testimonialsdue{
+    width: 80%;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+
+
+main .testimonialsdue .centratura{
+    background-color: #9792e4;
+    border-radius: 20px;
+    gap: 20px;
+}
+
+main .testimonialsdue div{
+    display: flex;
+    align-items: center; 
+    margin-bottom: 30px;
+}
+
+
+
