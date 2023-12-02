@@ -193,6 +193,9 @@ main div .secondafoto img{
     gap: 20px;
 }
 
+main .testimonialsdue div p .asterisco i,{
+
+}
 
 main .testimonialsdue .centratura{
     background-color: #9792e4;
@@ -278,11 +281,116 @@ main .contenitore-flex{
     font-size: 50px;
   }
 
-  
+  main .aboutus{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    gap: 40px;
+  }
+
+  main .aboutus .left{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    line-height: 30px;
+  }
+
+  main .aboutus div h3{
+    font-size: 50px;
+    color: #9792e4;
+  }
+
+  main .aboutus .right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+ main .aboutus .right button{
+    padding: 15px 1px;
+    border: none;
+    border-radius: 20px;
+    background-color: #9792e4;
+    color: white;
+ }
+
+ main .aboutus .right picture{
+    width: 200px;
+    height: 200px; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    margin-left: 20px;
+}
+
+main .aboutus .right picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main .aboutus .right p{
+    color: #9792e4;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+main .conclusione{
+    text-align: center;
+    line-height: 60px;
+    background-color: #9792e4;
+    padding: 30px 0;
+    color: white;
+}
+
+main .conclusione div h6{
+    opacity: 0.3;
+    font-size: 1rem;
+}
+
+main .conclusione div h3{
+    font-size: 2rem;
+}
+
+main .conclusione div h2{
+    font-size: 3rem;
+    padding: 10px 0;
+    color: #ffc359;
+}
+
+main .conclusione div p{
+    line-height: 20px;
+}
+main .conclusione div button{
+    padding: 15px 40px;
+    border: none;
+    border-radius: 30px;
+    margin: 20px 0;
+    background-color: white;
+    color: #9792e4;
+    
+}
+footer section {
+    background-color: #333333;
+    color: white;
+}
+
+footer section div{
+    text-align: center;
+}
+
+footer section .sopra p{
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+footer section div p u{
+    color: #837ec0;
+}
 
 
-  
-  
+
+
   @media screen and ( max-width: 768px ){
       nav{
           width: 80%;
@@ -365,4 +473,8 @@ main .contenitore-flex{
             width: 100%; 
           }
     }
+    main .aboutus{
+        width: 80%;
+        flex-direction: column;
+      }
  }
