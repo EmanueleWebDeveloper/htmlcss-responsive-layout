@@ -42,71 +42,8 @@ nav div ul li button{
    border-radius: 20px;
 }
 
-@media screen and ( max-width: 480px ){
-    nav{
-        width: 80%;
-        display: flex;
-        justify-content: space-between;
-        margin: 0 auto;
-        align-items: center;
-        padding: 10px;
-    }  
-    nav div ul{
-        display: none;
-    }
-    nav div #mobile{
-        display: block;
-    }
-    main .planning{
-        display: flex;
-        width: 100%;
-        margin: 0 auto;
-        flex-wrap: wrap;
-    }
-    main .container{
-        width: 100%;
-        margin: 0 auto;
-        flex-direction: column;
-     }
-     main .flex-foto{
-        flex-direction: column;
-    }
 
-    main .card-big{
-        width: 100%;
-    }
-    
-}
-
-
-@media screen and ( max-width: 768px ){
-    nav{
-        width: 80%;
-        display: flex;
-        justify-content: space-between;
-        margin: 0 auto;
-        align-items: center;
-        padding: 10px;
-    }  
-    nav div ul{
-        display: none;
-    }
-    nav div #mobile{
-        display: block;
-    }
-    main .planning{
-        display: flex;
-        width: 100%;
-        margin: 0 auto;
-        flex-wrap: wrap;
-    }
-    main .flex-foto{
-        display: flex;  
-        flex-direction: column;
-    }
- }
-
- main .container{
+main .container{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -169,6 +106,7 @@ main .container .cards-small h3{
     padding-top: 20px;
 }
 
+
 main div div img{
     width: 300px;
 }
@@ -193,7 +131,7 @@ main div .primafoto{
 }
 
 main div .primafoto img{
-   padding-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 main div .secondafoto{
@@ -248,7 +186,11 @@ main div .secondafoto img{
 .testimonialsdue{
     width: 80%;
     padding-top: 40px;
+    padding-bottom: 40px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 
@@ -256,14 +198,171 @@ main .testimonialsdue .centratura{
     background-color: #9792e4;
     border-radius: 20px;
     gap: 20px;
+    color: white;
 }
 
 main .testimonialsdue div{
     display: flex;
     align-items: center; 
-    margin-bottom: 30px;
+    padding: 20px 0;
 }
 
+main .testimonialsdue div picture{
+    width: 200px;
+    height: 200px; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    margin-left: 20px;
+}
+
+main .testimonialsdue div picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main #title-3{
+    background-color: #9792e4;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 30px;
+   text-align: center;
+   color: white;
+}
+
+main #title-3{
+   padding: 20px 0;
+}
+
+.seicarte{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background-color: #9792e4;
+}
+main .contenitore-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+}
+
+.carta {
+    width: 30%; 
+    margin: 10px;
+    padding: 30px 20px;
+    background-color: white;
+    color: #9792e4;
+    border-radius: 20px;
+  }
+
+  main .contenitore-flex .carta button{
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #9792e4;
+    color: white;
+  }
+
+  main .contenitore-flex .carta div h3{
+    padding: 20px 0px;
+  }
+
+  main .contenitore-flex .carta .Bottoneviola{
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  main .contenitore-flex .carta div h2{
+    font-size: 50px;
+  }
+
+  
 
 
+  
+  
+  @media screen and ( max-width: 768px ){
+      nav{
+          width: 80%;
+          display: flex;
+          justify-content: space-between;
+          margin: 0 auto;
+          align-items: center;
+          padding: 10px;
+        }  
+        nav div ul{
+            display: none;
+        }
+    nav div #mobile{
+        display: block;
+    }
+    main .planning{
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+    main .flex-foto{
+        display: flex;  
+        flex-direction: column;
+    }
+    .carta {
+        width: 45%; 
+        
+    }
 
+
+    @media screen and ( max-width: 480px ){
+        nav{
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            align-items: center;
+            padding: 10px;
+        }  
+        nav div ul{
+            display: none;
+        }
+        nav div #mobile{
+            display: block;
+        }
+        main .planning{
+            display: flex;
+            width: 100%;
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+        main .container{
+            width: 100%;
+            margin: 0 auto;
+            flex-direction: column;
+         }
+         main .flex-foto{
+            flex-direction: column;
+        }
+    
+        main .cards-small{
+            width: 100%;     
+        }
+
+        main .card-big{
+            width: 100%;
+        }
+        
+        main .testimonialsdue div{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        main .contenitore-flex{
+            flex-direction: column;
+            align-items: center;
+        }
+        .carta {
+            width: 100%; 
+          }
+    }
+ }
