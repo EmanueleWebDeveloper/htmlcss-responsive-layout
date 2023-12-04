@@ -93,7 +93,14 @@ main .flex-foto{
 }
 
 main .flex-foto div img{
-    margin-bottom: -10px; 
+    margin-bottom: -10px;
+}
+main .container .card-big .flex-foto div figure {
+   width: 100%; 
+   display: flex;
+   flex-direction: column;
+   justify-self: end;
+   height: 100%;
 }
 
 main .container .cards-small .icon{
